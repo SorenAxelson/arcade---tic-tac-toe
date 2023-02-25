@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <h1>Tic Tac Toe</h1>
+    <strong id="player1WinMessage">wom</strong>
+    <strong id="player2WinMessage">won</strong>
+    <strong id="tieMessage">It's A Tie</strong>
+
+    <input
+      id="player1Input"
+      type="text"
+      required
+      maxlength="10"
+      placeholder="Input Player1 Name"
+    />
+    <input
+      id="player2Input"
+      type="text"
+      required
+      maxlength="10"
+      placeholder="Input Player2 Name"
+    />
+    <div>
+      <div id="boxRow1">
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+      </div>
+      <div id="boxRow2">
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+      </div>
+      <div id="boxRow3">
+        <div id="box7" class="box"></div>
+        <div id="box8" class="box"></div>
+        <div id="box9" class="box"></div>
+      </div>
+    </div>
+    <button id="resetButton">Reset</button>
+  </body>
+</html>
